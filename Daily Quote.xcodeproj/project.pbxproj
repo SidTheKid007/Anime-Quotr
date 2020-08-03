@@ -16,6 +16,7 @@
 		C02B4B9F24D76CEF003AA8AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B4B9D24D76CEF003AA8AF /* LaunchScreen.storyboard */; };
 		C02B4BAA24D76CEF003AA8AF /* Daily_QuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B4BA924D76CEF003AA8AF /* Daily_QuoteTests.swift */; };
 		C02B4BB524D76CEF003AA8AF /* Daily_QuoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B4BB424D76CEF003AA8AF /* Daily_QuoteUITests.swift */; };
+		C075006824D8BADE0065C309 /* BioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075006724D8BADE0065C309 /* BioController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C02B4BB024D76CEF003AA8AF /* Daily QuoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily QuoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02B4BB424D76CEF003AA8AF /* Daily_QuoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_QuoteUITests.swift; sourceTree = "<group>"; };
 		C02B4BB624D76CEF003AA8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C075006724D8BADE0065C309 /* BioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				C02B4B8F24D76CED003AA8AF /* AppDelegate.swift */,
 				C02B4B9124D76CED003AA8AF /* SceneDelegate.swift */,
 				C02B4B9324D76CED003AA8AF /* ViewController.swift */,
+				C075006724D8BADE0065C309 /* BioController.swift */,
 				C02B4B9524D76CED003AA8AF /* Main.storyboard */,
 				C02B4B9B24D76CEF003AA8AF /* Assets.xcassets */,
 				C02B4B9D24D76CEF003AA8AF /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				C02B4B9A24D76CED003AA8AF /* Daily_Quote.xcdatamodeld in Sources */,
 				C02B4B9424D76CED003AA8AF /* ViewController.swift in Sources */,
+				C075006824D8BADE0065C309 /* BioController.swift in Sources */,
 				C02B4B9024D76CED003AA8AF /* AppDelegate.swift in Sources */,
 				C02B4B9224D76CED003AA8AF /* SceneDelegate.swift in Sources */,
 			);

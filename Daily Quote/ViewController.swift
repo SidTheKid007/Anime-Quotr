@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var dateText: UILabel!
     @IBOutlet weak var quoteText: UILabel!
     @IBOutlet weak var authorText: UILabel!
+    var author = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +31,10 @@ class ViewController: UIViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondController = segue.destination as! BioController
+        secondController.author = self.author
+    }
     
     func loadQuote() {
         guard let url = URL(string: "https://quotes.rest/qod?language=en") else {
@@ -43,6 +48,7 @@ class ViewController: UIViewController {
                     DispatchQueue.main.async {
                         let jsonQuote = decodedResponse.contents.quotes[0].quote
                         let jsonAuthor = decodedResponse.contents.quotes[0].author
+                        self.author = jsonAuthor
                         self.quoteText.text = jsonQuote
                         self.authorText.text = jsonAuthor
                     }
