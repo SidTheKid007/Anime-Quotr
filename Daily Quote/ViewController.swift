@@ -37,17 +37,17 @@ class ViewController: UIViewController {
     }
     
     func loadQuote() {
-        guard let url = URL(string: "https://quotes.rest/qod?language=en") else {
+        guard let url = URL(string: "https://quot-r.herokuapp.com/api/quote/quote") else {
             print("Invalid URL")
             return
         }
         let request = URLRequest(url: url)
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let data = data {
-                if let decodedResponse = try? JSONDecoder().decode(Root.self, from: data) {
+                if let decodedResponse = try? JSONDecoder().decode(QuoteResponse.self, from: data) {
                     DispatchQueue.main.async {
-                        let jsonQuote = decodedResponse.contents.quotes[0].quote
-                        let jsonAuthor = decodedResponse.contents.quotes[0].author
+                        let jsonQuote = decodedResponse.Quote
+                        let jsonAuthor = decodedResponse.Author
                         self.author = jsonAuthor
                         self.quoteText.text = jsonQuote
                         self.authorText.text = jsonAuthor
@@ -60,19 +60,9 @@ class ViewController: UIViewController {
         
     }
     
-    struct Root : Decodable {
-        private enum CodingKeys : String, CodingKey { case contents = "contents" }
-        let contents : contents
-    }
-    
-    struct contents : Decodable {
-        private enum CodingKeys : String, CodingKey { case quotes = "quotes" }
-        let quotes : [Quote]
-    }
-    
-    struct Quote: Codable {
-        var quote: String
-        var author: String
+    struct QuoteResponse: Codable {
+        var Quote: String
+        var Author: String
     }
  
 }

@@ -100,8 +100,11 @@
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tHp-xe-akI" userLabel="AuthorImage">
                                 <rect key="frame" x="20" y="61" width="374" height="214"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tHp-xe-akI" secondAttribute="height" multiplier="187:107" id="eZi-Sv-R70"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quote" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Oua-Ag-jVI" userLabel="Biography">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quote" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Oua-Ag-jVI" userLabel="Biography">
                                 <rect key="frame" x="20" y="283" width="374" height="525"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="525" id="aJE-fV-8Qv"/>
@@ -123,6 +126,7 @@
                             <constraint firstItem="Oua-Ag-jVI" firstAttribute="leading" secondItem="elv-9B-1CQ" secondAttribute="leading" id="fJt-m1-yGv"/>
                             <constraint firstItem="Oua-Ag-jVI" firstAttribute="top" secondItem="tHp-xe-akI" secondAttribute="bottom" constant="8" id="oL3-yY-hCn"/>
                             <constraint firstItem="Oua-Ag-jVI" firstAttribute="trailing" secondItem="tHp-xe-akI" secondAttribute="trailing" id="wnP-Se-uFa"/>
+                            <constraint firstItem="Oua-Ag-jVI" firstAttribute="width" secondItem="tHp-xe-akI" secondAttribute="width" id="z0a-gr-u2C"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Cmy-WB-uKC"/>
                     </view>
