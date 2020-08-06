@@ -15,13 +15,17 @@ class BioController: UIViewController {
     @IBOutlet weak var authorBio: UILabel!
     
     var author = ""
+    var biography = ""
+    var image = ""
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         authorText.text = author
-        let newAuthor = author.replacingOccurrences(of: " ", with: "%20")
-        loadQuote(topic: newAuthor)
+        self.setImage(from: image)
+        authorBio.text = biography
+        
+        //loadQuote(topic: newAuthor)
     }
     
     

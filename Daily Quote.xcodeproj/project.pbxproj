@@ -12,11 +12,11 @@
 		C02B4B9424D76CED003AA8AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B4B9324D76CED003AA8AF /* ViewController.swift */; };
 		C02B4B9724D76CED003AA8AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B4B9524D76CED003AA8AF /* Main.storyboard */; };
 		C02B4B9A24D76CED003AA8AF /* Daily_Quote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C02B4B9824D76CED003AA8AF /* Daily_Quote.xcdatamodeld */; };
-		C02B4B9C24D76CEF003AA8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02B4B9B24D76CEF003AA8AF /* Assets.xcassets */; };
 		C02B4B9F24D76CEF003AA8AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B4B9D24D76CEF003AA8AF /* LaunchScreen.storyboard */; };
 		C02B4BAA24D76CEF003AA8AF /* Daily_QuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B4BA924D76CEF003AA8AF /* Daily_QuoteTests.swift */; };
 		C02B4BB524D76CEF003AA8AF /* Daily_QuoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B4BB424D76CEF003AA8AF /* Daily_QuoteUITests.swift */; };
 		C075006824D8BADE0065C309 /* BioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075006724D8BADE0065C309 /* BioController.swift */; };
+		C08CBD4E24DBD09D00730C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08CBD4D24DBD09D00730C0A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		C02B4B9324D76CED003AA8AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C02B4B9624D76CED003AA8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C02B4B9924D76CED003AA8AF /* Daily_Quote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daily_Quote.xcdatamodel; sourceTree = "<group>"; };
-		C02B4B9B24D76CEF003AA8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C02B4B9E24D76CEF003AA8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C02B4BA024D76CEF003AA8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02B4BA524D76CEF003AA8AF /* Daily QuoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily QuoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +52,7 @@
 		C02B4BB424D76CEF003AA8AF /* Daily_QuoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_QuoteUITests.swift; sourceTree = "<group>"; };
 		C02B4BB624D76CEF003AA8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C075006724D8BADE0065C309 /* BioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioController.swift; sourceTree = "<group>"; };
+		C08CBD4D24DBD09D00730C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				C02B4B9324D76CED003AA8AF /* ViewController.swift */,
 				C075006724D8BADE0065C309 /* BioController.swift */,
 				C02B4B9524D76CED003AA8AF /* Main.storyboard */,
-				C02B4B9B24D76CEF003AA8AF /* Assets.xcassets */,
+				C08CBD4D24DBD09D00730C0A /* Assets.xcassets */,
 				C02B4B9D24D76CEF003AA8AF /* LaunchScreen.storyboard */,
 				C02B4BA024D76CEF003AA8AF /* Info.plist */,
 				C02B4B9824D76CED003AA8AF /* Daily_Quote.xcdatamodeld */,
@@ -239,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C02B4B9F24D76CEF003AA8AF /* LaunchScreen.storyboard in Resources */,
-				C02B4B9C24D76CEF003AA8AF /* Assets.xcassets in Resources */,
+				C08CBD4E24DBD09D00730C0A /* Assets.xcassets in Resources */,
 				C02B4B9724D76CED003AA8AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,12 +443,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6UM2GR5MVA;
 				INFOPLIST_FILE = "Daily Quote/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.Daily-Quote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -461,12 +463,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6UM2GR5MVA;
 				INFOPLIST_FILE = "Daily Quote/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.Daily-Quote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
