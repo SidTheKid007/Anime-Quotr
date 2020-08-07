@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var dateText: UILabel!
+    
     @IBOutlet weak var quoteText: UILabel!
     @IBOutlet weak var authorText: UILabel!
+    @IBOutlet weak var authorImage: UIImageView!
+    
     var author = ""
     var biography = ""
     var image = ""
@@ -22,13 +24,17 @@ class ViewController: UIViewController {
         
         //set the date
         let today = Date()
-        let calendar = Calendar.current
+        /*
+         let calendar = Calendar.current
         let year = String(calendar.component(.year, from: today))
         let month = String(calendar.component(.month, from: today))
         let day = String(calendar.component(.day, from: today))
         dateText.text = month + "/" + day + "/" + year
+        */
         
-        let startDateString = "2020-08-02"
+        authorImage.layer.cornerRadius = 15.0
+        
+        let startDateString = "2020-07-27"
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
         let startDate = dateFormatter.date(from: startDateString)!
@@ -61,15 +67,16 @@ class ViewController: UIViewController {
             if let data = data {
                 if let decodedResponse = try? JSONDecoder().decode(QuoteResponse.self, from: data) {
                     DispatchQueue.main.async {
-                        let jsonQuote = decodedResponse.Quote
-                        let jsonAuthor = decodedResponse.Author
-                        let jsonBiography = decodedResponse.Summary
-                        let jsonImage = decodedResponse.Image
-                        self.author = jsonAuthor
-                        self.biography = jsonBiography
-                        self.image = jsonImage
-                        self.quoteText.text = jsonQuote
-                        self.authorText.text = jsonAuthor
+                        //let jsonQuote = decodedResponse.Quote
+                        //let jsonAuthor = decodedResponse.Author
+                        //let jsonBiography = decodedResponse.Summary
+                        //let jsonImage = decodedResponse.Image
+                        self.author = decodedResponse.Author
+                        self.biography = decodedResponse.Summary
+                        self.image = decodedResponse.Image
+                        self.setImage(from: decodedResponse.Image)
+                        self.quoteText.text = decodedResponse.Quote
+                        self.authorText.text = decodedResponse.Author
                     }
                     return
                 }
@@ -77,6 +84,18 @@ class ViewController: UIViewController {
             print("Fetch Failed: \(error?.localizedDescription ?? "Unknown Error")")
         }.resume()
         
+    }
+    
+    func setImage(from url: String) {
+        guard let imageURL = URL(string: url) else { return }
+        DispatchQueue.global().async {
+            guard let imageData = try? Data(contentsOf: imageURL) else { return }
+
+            let image = UIImage(data: imageData)
+            DispatchQueue.main.async {
+                self.authorImage.image = image
+            }
+        }
     }
     
     struct QuoteResponse: Codable {
