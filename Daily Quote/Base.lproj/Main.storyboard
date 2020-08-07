@@ -18,15 +18,14 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quote" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="bal-lQ-Jrg">
                                 <rect key="frame" x="53" y="349" width="313" height="180"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="313" id="uee-OY-vFj"/>
                                     <constraint firstAttribute="height" constant="180" id="uy8-WX-2nL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="24"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quotr top icon" translatesAutoresizingMaskIntoConstraints="NO" id="vAd-2g-FCc" userLabel="Title Pic">
                                 <rect key="frame" x="88" y="44" width="238" height="42"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="Ydr-ls-45s"/>
                                 </constraints>
@@ -38,13 +37,12 @@
                                     <constraint firstAttribute="height" constant="128" id="hM6-MC-jAg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1yC-m2-Qgx" userLabel="AuthorImage">
                                 <rect key="frame" x="39" y="213" width="148" height="128"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="fof-H9-Eiy"/>
                                     <constraint firstAttribute="width" constant="148" id="uqy-cj-KUV"/>
@@ -70,14 +68,14 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn about the author" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4u-nE-Cu8">
                                 <rect key="frame" x="39" y="567" width="287" height="30"/>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info icon" translatesAutoresizingMaskIntoConstraints="NO" id="G5L-oV-tJV">
-                                <rect key="frame" x="317" y="564" width="49" height="40"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="G5L-oV-tJV">
+                                <rect key="frame" x="336" y="564.5" width="30" height="29"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="0cL-MN-gC5"/>
-                                    <constraint firstAttribute="width" constant="49" id="8yV-EG-156"/>
+                                    <constraint firstAttribute="width" constant="30" id="Du0-M5-6f5"/>
+                                    <constraint firstAttribute="height" constant="30" id="u5L-tn-DfU"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -179,7 +177,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="info icon" width="178" height="178"/>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="quotr top icon" width="302" height="90"/>
     </resources>
 </document>

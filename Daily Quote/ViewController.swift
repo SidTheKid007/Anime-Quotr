@@ -33,6 +33,8 @@ class ViewController: UIViewController {
         */
         
         authorImage.layer.cornerRadius = 15.0
+        authorImage.clipsToBounds = true
+        authorImage.layer.borderWidth = 1.5
         
         let startDateString = "2020-07-27"
         let dateFormatter = DateFormatter()
