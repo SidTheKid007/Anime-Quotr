@@ -15,11 +15,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4598873-simple-background-blue-simple-minimalism-blue-background-2" translatesAutoresizingMaskIntoConstraints="NO" id="DOs-i4-rbC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quotr top icon" translatesAutoresizingMaskIntoConstraints="NO" id="DOs-i4-rbC">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DOs-i4-rbC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Dr5-sn-9Vs"/>
                             <constraint firstAttribute="bottom" secondItem="DOs-i4-rbC" secondAttribute="bottom" id="Hnw-nX-BIE"/>
@@ -35,6 +35,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="4598873-simple-background-blue-simple-minimalism-blue-background-2" width="800" height="1200"/>
+        <image name="quotr top icon" width="302" height="90"/>
     </resources>
 </document>
