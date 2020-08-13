@@ -69,10 +69,6 @@ class ViewController: UIViewController {
             if let data = data {
                 if let decodedResponse = try? JSONDecoder().decode(QuoteResponse.self, from: data) {
                     DispatchQueue.main.async {
-                        //let jsonQuote = decodedResponse.Quote
-                        //let jsonAuthor = decodedResponse.Author
-                        //let jsonBiography = decodedResponse.Summary
-                        //let jsonImage = decodedResponse.Image
                         self.author = decodedResponse.Author
                         self.biography = decodedResponse.Summary
                         self.image = decodedResponse.Image

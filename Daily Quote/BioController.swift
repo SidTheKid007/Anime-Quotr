@@ -21,11 +21,8 @@ class BioController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let paragraphStyle = NSMutableParagraphStyle()
-        paragraphStyle.lineSpacing = 1.4
         authorText.text = author
         authorBio.text = biography
-        
     }
     
     
