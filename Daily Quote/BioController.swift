@@ -24,12 +24,6 @@ class BioController: UIViewController {
         authorText.text = author
         authorBio.text = biography
     }
-    
-    
-    struct Biography: Codable {
-        var AbstractText: String?
-        var Image: String?
-    }
  
 }
 

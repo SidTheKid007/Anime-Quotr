@@ -62,6 +62,7 @@ class ViewController: UIViewController {
     func loadQuote(index: String) {
         guard let url = URL(string: "https://senpai-hold-me.herokuapp.com/api/quote/" + index) else {
             print("Invalid URL")
+            loadDefaults()
             return
         }
         let request = URLRequest(url: url)
@@ -80,6 +81,7 @@ class ViewController: UIViewController {
                 }
             }
             print("Fetch Failed: \(error?.localizedDescription ?? "Unknown Error")")
+            self.loadDefaults()
         }.resume()
         
     }
@@ -93,6 +95,16 @@ class ViewController: UIViewController {
             DispatchQueue.main.async {
                 self.authorImage.image = image
             }
+        }
+    }
+    
+    func loadDefaults() {
+        self.author = "Mahatma Gandhi"
+        self.biography = "Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the successful campaign for India's independence from British Rule, and in turn inspired movements for civil rights and freedom across the world."
+        DispatchQueue.main.async {
+            self.quoteText.text = "In a gentle way, you can shake the world"
+            self.authorText.text = "Mahatma Gandhi"
+            self.authorImage.image = #imageLiteral(resourceName: "Mahatma-Gandhi-Insta")
         }
     }
     

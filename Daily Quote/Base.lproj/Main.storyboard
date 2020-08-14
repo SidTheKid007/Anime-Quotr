@@ -144,18 +144,18 @@
                                 <rect key="frame" x="20" y="239" width="374" height="502"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EcD-IU-KWA" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="1000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="38.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Oua-Ag-jVI" userLabel="Biography">
-                                                <rect key="frame" x="16" y="0.0" width="342" height="1000"/>
+                                                <rect key="frame" x="16" y="0.0" width="342" height="38.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="1000" id="cdI-n7-nnf" userLabel="height = 200"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="1000" id="cdI-n7-nnf" userLabel="height = 200"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Quote">
                                                         <attributes>
                                                             <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                            <font key="NSFont" size="24" name="Menlo-Regular"/>
+                                                            <font key="NSFont" size="22" name="Menlo-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="clipping" baseWritingDirection="natural" lineHeightMultiple="1.5" hyphenationFactor="1" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
