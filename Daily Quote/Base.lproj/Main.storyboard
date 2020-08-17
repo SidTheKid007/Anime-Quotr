@@ -23,7 +23,7 @@
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="24"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quotr top icon" translatesAutoresizingMaskIntoConstraints="NO" id="vAd-2g-FCc" userLabel="Title Pic">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quotrlogo" translatesAutoresizingMaskIntoConstraints="NO" id="vAd-2g-FCc" userLabel="Title Pic">
                                 <rect key="frame" x="88" y="44" width="238" height="42"/>
                                 <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
@@ -134,7 +134,7 @@
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quotr top icon" translatesAutoresizingMaskIntoConstraints="NO" id="tHp-xe-akI">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quotrlogo" translatesAutoresizingMaskIntoConstraints="NO" id="tHp-xe-akI">
                                 <rect key="frame" x="20" y="20" width="374" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="oNy-H7-hMt"/>
@@ -211,6 +211,6 @@
     </scenes>
     <resources>
         <image name="info.circle" catalog="system" width="128" height="121"/>
-        <image name="quotr top icon" width="302" height="90"/>
+        <image name="quotrlogo" width="302" height="90"/>
     </resources>
 </document>

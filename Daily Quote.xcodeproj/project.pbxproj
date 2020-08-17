@@ -16,7 +16,8 @@
 		C02B4BAA24D76CEF003AA8AF /* Daily_QuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B4BA924D76CEF003AA8AF /* Daily_QuoteTests.swift */; };
 		C02B4BB524D76CEF003AA8AF /* Daily_QuoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B4BB424D76CEF003AA8AF /* Daily_QuoteUITests.swift */; };
 		C075006824D8BADE0065C309 /* BioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075006724D8BADE0065C309 /* BioController.swift */; };
-		C08CBD4E24DBD09D00730C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08CBD4D24DBD09D00730C0A /* Assets.xcassets */; };
+		C0AB781F24EA094E00ECFD61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AB781E24EA094E00ECFD61 /* Assets.xcassets */; };
+		C0AB782124EA46A900ECFD61 /* QuoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB782024EA46A900ECFD61 /* QuoteResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,9 @@
 		C02B4BB424D76CEF003AA8AF /* Daily_QuoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_QuoteUITests.swift; sourceTree = "<group>"; };
 		C02B4BB624D76CEF003AA8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C075006724D8BADE0065C309 /* BioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioController.swift; sourceTree = "<group>"; };
-		C08CBD4D24DBD09D00730C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
+		C0AB781E24EA094E00ECFD61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0AB782024EA46A900ECFD61 /* QuoteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteResponse.swift; sourceTree = "<group>"; };
+		C0BD987E24E9F980004FE90E /* Daily Quote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Daily Quote.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +106,15 @@
 		C02B4B8E24D76CED003AA8AF /* Daily Quote */ = {
 			isa = PBXGroup;
 			children = (
+				C0BD987E24E9F980004FE90E /* Daily Quote.entitlements */,
 				C02B4B8F24D76CED003AA8AF /* AppDelegate.swift */,
 				C02B4B9124D76CED003AA8AF /* SceneDelegate.swift */,
 				C02B4B9324D76CED003AA8AF /* ViewController.swift */,
+				C0AB782024EA46A900ECFD61 /* QuoteResponse.swift */,
 				C075006724D8BADE0065C309 /* BioController.swift */,
 				C02B4B9524D76CED003AA8AF /* Main.storyboard */,
-				C08CBD4D24DBD09D00730C0A /* Assets.xcassets */,
 				C02B4B9D24D76CEF003AA8AF /* LaunchScreen.storyboard */,
+				C0AB781E24EA094E00ECFD61 /* Assets.xcassets */,
 				C02B4BA024D76CEF003AA8AF /* Info.plist */,
 				C02B4B9824D76CED003AA8AF /* Daily_Quote.xcdatamodeld */,
 			);
@@ -239,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C02B4B9F24D76CEF003AA8AF /* LaunchScreen.storyboard in Resources */,
-				C08CBD4E24DBD09D00730C0A /* Assets.xcassets in Resources */,
+				C0AB781F24EA094E00ECFD61 /* Assets.xcassets in Resources */,
 				C02B4B9724D76CED003AA8AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +273,7 @@
 				C02B4B9A24D76CED003AA8AF /* Daily_Quote.xcdatamodeld in Sources */,
 				C02B4B9424D76CED003AA8AF /* ViewController.swift in Sources */,
 				C075006824D8BADE0065C309 /* BioController.swift in Sources */,
+				C0AB782124EA46A900ECFD61 /* QuoteResponse.swift in Sources */,
 				C02B4B9024D76CED003AA8AF /* AppDelegate.swift in Sources */,
 				C02B4B9224D76CED003AA8AF /* SceneDelegate.swift in Sources */,
 			);
@@ -442,8 +448,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Daily Quote/Daily Quote.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = 6UM2GR5MVA;
 				INFOPLIST_FILE = "Daily Quote/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -451,7 +458,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.Daily-Quote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -463,8 +470,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Daily Quote/Daily Quote.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = 6UM2GR5MVA;
 				INFOPLIST_FILE = "Daily Quote/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -472,7 +480,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Personal.Daily-Quote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

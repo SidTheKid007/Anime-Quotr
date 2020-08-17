@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 class ViewController: UIViewController {
 
@@ -43,6 +44,7 @@ class ViewController: UIViewController {
         let dateDiff = String(daysBetween(start:startDate, end:today))
         
         if (author == "") {
+            scheduleLocal()
             loadQuote(index: dateDiff)
         }
         
@@ -108,11 +110,24 @@ class ViewController: UIViewController {
         }
     }
     
-    struct QuoteResponse: Codable {
-        var Quote: String
-        var Author: String
-        var Summary: String
-        var Image: String
+    @objc func scheduleLocal() {
+        let center = UNUserNotificationCenter.current()
+        center.removeAllPendingNotificationRequests()
+
+        let content = UNMutableNotificationContent()
+        content.title = "Good Morning!"
+        content.body = "New Day. New Quote. Tap on me to find out more."
+        content.categoryIdentifier = "alarm"
+        content.sound = UNNotificationSound.default
+
+        var dateComponents = DateComponents()
+        dateComponents.hour = 10
+        dateComponents.minute = 45
+        //let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        center.add(request)
     }
  
 }
