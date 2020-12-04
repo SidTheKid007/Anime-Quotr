@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0344DF903354AA907019C4F01A2953FD /* Pods-Daily Anime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D28CD468D9C04F365B5F7939799EE1 /* Pods-Daily Anime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E37E3F4AD5B372123C232FAB0AF797E /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D8D257AE694A9D18EB2BA4D56B1669 /* FLAnimatedImageView.m */; };
+		3FAD4E8B34CE4D247F2BF5FEF8ACDF36 /* Pods-Daily AnimeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C99703EE50B2BC52E4FFC977869A937F /* Pods-Daily AnimeTests-dummy.m */; };
+		4233D3A428A24B3A825FB4954CAD0633 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9547205A70C36EE7CBAF3A01231C5922 /* CoreGraphics.framework */; };
+		4AB004656F00C44B4B9F8D56C4754D0A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAD0FE9175ACF308EC3F581CBCE4DB3 /* ImageIO.framework */; };
+		4EEBE102D37A273DB785576A40CB5899 /* Pods-Daily Anime-Daily AnimeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F29D4EE6FEB810BF4CF6026BB2E47165 /* Pods-Daily Anime-Daily AnimeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56FD08990FA358410069F3FAAE721174 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA77BD9D78099B5DE65EDA8514B15BF /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		770D89C6EDAC110D7515A4E47BEABE39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */; };
+		8C7D729C08C1E760B384B8D8AFFA9EF8 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4DB009A3ED0B21A0D2ED1D31056A13 /* FLAnimatedImage.m */; };
+		8F66B8BB0E6448219718D9FE6CB68470 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 19358D9BBAEF9214AE8D8910983562E2 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BE2E2A375BECC044B8A0EC4ECBCE5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */; };
+		B22FD3C7F646F531FE1F5ECECF0CC32E /* Pods-Daily Anime-Daily AnimeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2522D969D93325ACBCFAB59E99C9F3 /* Pods-Daily Anime-Daily AnimeUITests-dummy.m */; };
+		B3729C06CE3ABD72BF652E5847B2F576 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40640917C32395FE3CC15AD5A620ABB /* MobileCoreServices.framework */; };
+		BF8E461B461BFF372E08FD3D059210B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */; };
+		BF94353BBCE2A4A703F63D08DC30C452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */; };
+		C21232881787102B216E2B8CBF006C8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBC4B7FCE510DA29EF1CE33E2C7F75D /* QuartzCore.framework */; };
+		C4908503383288EED975CAF0DEE39249 /* Pods-Daily AnimeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C10017DD25F2D45D4995515E651950 /* Pods-Daily AnimeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7A79E0DAC9677BA1663ED5039F087DE /* FLAnimatedImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72073A5E91C3CDE976E20B81FB680E84 /* FLAnimatedImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E0F0B55021FD2EA75B591CF86EB797 /* FLAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E27E0B62A82E59C661A47A4FF283FD7 /* FLAnimatedImage-dummy.m */; };
+		FE8458C118CA938A52C3B5AAF84DA445 /* Pods-Daily Anime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B60A2DD45EEC6FD2833AD7BE1A876B1E /* Pods-Daily Anime-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C6D3247664468F548A50BEFDE8142D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8E8992707D01510894596DB9BCCA00;
+			remoteInfo = FLAnimatedImage;
+		};
+		7E06B9EACEDB07EDD26D8A0C219E4E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E477998068C968B391EFE2675BF096FB;
+			remoteInfo = "Pods-Daily Anime";
+		};
+		D7A2684A9E210272C947C523DD434236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8E8992707D01510894596DB9BCCA00;
+			remoteInfo = FLAnimatedImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077EBAB0D752A52D4B0A04EF739EAD84 /* FLAnimatedImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLAnimatedImage.modulemap; sourceTree = "<group>"; };
+		0FAD0FE9175ACF308EC3F581CBCE4DB3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		19358D9BBAEF9214AE8D8910983562E2 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		1A596B5D46DBEC5B4699D680E43374C7 /* Pods_Daily_Anime_Daily_AnimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Daily_Anime_Daily_AnimeUITests.framework; path = "Pods-Daily Anime-Daily AnimeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24133618F5B3E74CEBA01F7457AA966C /* Pods_Daily_Anime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Daily_Anime.framework; path = "Pods-Daily Anime.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F156432112EAFA498A149D043EED7C /* Pods-Daily Anime-Daily AnimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daily Anime-Daily AnimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		28A86E1F5152873C399D09E7221B8C53 /* Pods-Daily Anime-Daily AnimeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Daily Anime-Daily AnimeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2E4DB009A3ED0B21A0D2ED1D31056A13 /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		34714E2AA823B798E8993691B0FAB93B /* FLAnimatedImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.debug.xcconfig; sourceTree = "<group>"; };
+		3A8006F9934E36D46E06E15EBE16F124 /* Pods-Daily Anime-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Daily Anime-Info.plist"; sourceTree = "<group>"; };
+		3BA77BD9D78099B5DE65EDA8514B15BF /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
+		43DC7B64A5973D8C91D71B5F39666841 /* Pods-Daily Anime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daily Anime.release.xcconfig"; sourceTree = "<group>"; };
+		4E511B5E60D2824D872C1ECF2E487811 /* Pods-Daily Anime-Daily AnimeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Daily Anime-Daily AnimeUITests.modulemap"; sourceTree = "<group>"; };
+		4FBC4B7FCE510DA29EF1CE33E2C7F75D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		55C10017DD25F2D45D4995515E651950 /* Pods-Daily AnimeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Daily AnimeTests-umbrella.h"; sourceTree = "<group>"; };
+		58D8D257AE694A9D18EB2BA4D56B1669 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
+		5A2522D969D93325ACBCFAB59E99C9F3 /* Pods-Daily Anime-Daily AnimeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Daily Anime-Daily AnimeUITests-dummy.m"; sourceTree = "<group>"; };
+		6A0E588E72B862B66494EA1C817B8055 /* FLAnimatedImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLAnimatedImage-Info.plist"; sourceTree = "<group>"; };
+		6AE6119FE58B1A4FFB7DB8A31E0DAD1A /* Pods-Daily Anime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daily Anime.debug.xcconfig"; sourceTree = "<group>"; };
+		72073A5E91C3CDE976E20B81FB680E84 /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
+		780DAB60B4A9BEC1C4A427B6D6ECA8A9 /* Pods-Daily Anime-Daily AnimeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Daily Anime-Daily AnimeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E1F9845456054E2057FA97E1502736F /* Pods-Daily Anime-Daily AnimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daily Anime-Daily AnimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7F35BEF12D7A640D2696E4A09E5BC3C5 /* Pods-Daily AnimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daily AnimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FCCAF80C7B96B87DFCC8C98C452D741 /* FLAnimatedImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.release.xcconfig; sourceTree = "<group>"; };
+		8844FF96B5261D09D4E7B63A68CDA97C /* Pods-Daily Anime-Daily AnimeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Daily Anime-Daily AnimeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		895DF52BB8E92C9678BF543D51729FC8 /* Pods-Daily Anime-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Daily Anime-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9276BB44F9396DEFB9DA212A7BBCB982 /* Pods-Daily AnimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daily AnimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9547205A70C36EE7CBAF3A01231C5922 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		98208E8AFA7BE4F97DDC0A209FE208BA /* Pods-Daily Anime-Daily AnimeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Daily Anime-Daily AnimeUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E27E0B62A82E59C661A47A4FF283FD7 /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
+		A1D28CD468D9C04F365B5F7939799EE1 /* Pods-Daily Anime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Daily Anime-umbrella.h"; sourceTree = "<group>"; };
+		A4F24AB3C827570B1D1B6C60EBAA6D9C /* Pods-Daily AnimeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Daily AnimeTests.modulemap"; sourceTree = "<group>"; };
+		A6F14631819B5D7E1139F5ED765C0DAE /* FLAnimatedImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-prefix.pch"; sourceTree = "<group>"; };
+		B291DA32342D097A69F366187DDBD4B8 /* Pods-Daily AnimeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Daily AnimeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B40640917C32395FE3CC15AD5A620ABB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		B59C20CA81F8B10FCB4B169F677A07EF /* Pods-Daily AnimeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Daily AnimeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B60A2DD45EEC6FD2833AD7BE1A876B1E /* Pods-Daily Anime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Daily Anime-dummy.m"; sourceTree = "<group>"; };
+		C505033EF8EE09B8A3941CC053D19889 /* Pods-Daily Anime-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Daily Anime-acknowledgements.plist"; sourceTree = "<group>"; };
+		C99703EE50B2BC52E4FFC977869A937F /* Pods-Daily AnimeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Daily AnimeTests-dummy.m"; sourceTree = "<group>"; };
+		CE1848440EC730C0D19CDEB58FEBEB18 /* Pods_Daily_AnimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Daily_AnimeTests.framework; path = "Pods-Daily AnimeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F29D4EE6FEB810BF4CF6026BB2E47165 /* Pods-Daily Anime-Daily AnimeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Daily Anime-Daily AnimeUITests-umbrella.h"; sourceTree = "<group>"; };
+		F4F124759643C0370E93F04242712362 /* Pods-Daily AnimeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Daily AnimeTests-Info.plist"; sourceTree = "<group>"; };
+		FAA5F2D71B90788C908800A94534AA92 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLAnimatedImage.framework; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB30F387D344F3EBB57D3B2F74E34133 /* Pods-Daily Anime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Daily Anime.modulemap"; sourceTree = "<group>"; };
+		FF49378A677286E7B5CC921E88BEEC70 /* Pods-Daily Anime-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Daily Anime-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939ECE9460DB5F12EA34129DA01E6E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4233D3A428A24B3A825FB4954CAD0633 /* CoreGraphics.framework in Frameworks */,
+				BF94353BBCE2A4A703F63D08DC30C452 /* Foundation.framework in Frameworks */,
+				4AB004656F00C44B4B9F8D56C4754D0A /* ImageIO.framework in Frameworks */,
+				B3729C06CE3ABD72BF652E5847B2F576 /* MobileCoreServices.framework in Frameworks */,
+				C21232881787102B216E2B8CBF006C8C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AEF7E860D8DADE2863019F694196E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8E461B461BFF372E08FD3D059210B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D604FCF619E5E641D81EDA8F44C15D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE2E2A375BECC044B8A0EC4ECBCE5BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9209DDC9EC1981330AAEE7F1F4B59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770D89C6EDAC110D7515A4E47BEABE39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C1CEE6B77E2E0B5CEA1393A42B21AD /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				3BA77BD9D78099B5DE65EDA8514B15BF /* FLAnimatedImage.h */,
+				2E4DB009A3ED0B21A0D2ED1D31056A13 /* FLAnimatedImage.m */,
+				19358D9BBAEF9214AE8D8910983562E2 /* FLAnimatedImageView.h */,
+				58D8D257AE694A9D18EB2BA4D56B1669 /* FLAnimatedImageView.m */,
+				4FCDA47D0C3B1B90797A19609651A0F3 /* Support Files */,
+			);
+			name = FLAnimatedImage;
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		1B7297ED6EF8D493FB2DDC2347D10B41 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B4FD5E43674DD7913E312CF0261BE8 /* Pods-Daily Anime */,
+				A51FC81BC219BFA79C7C565E756F86F0 /* Pods-Daily Anime-Daily AnimeUITests */,
+				6F952231347B7CAA929A2E0917636322 /* Pods-Daily AnimeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4B23E791B8839DB6941C7EB499DAE965 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16C1CEE6B77E2E0B5CEA1393A42B21AD /* FLAnimatedImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4FCDA47D0C3B1B90797A19609651A0F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				077EBAB0D752A52D4B0A04EF739EAD84 /* FLAnimatedImage.modulemap */,
+				9E27E0B62A82E59C661A47A4FF283FD7 /* FLAnimatedImage-dummy.m */,
+				6A0E588E72B862B66494EA1C817B8055 /* FLAnimatedImage-Info.plist */,
+				A6F14631819B5D7E1139F5ED765C0DAE /* FLAnimatedImage-prefix.pch */,
+				72073A5E91C3CDE976E20B81FB680E84 /* FLAnimatedImage-umbrella.h */,
+				34714E2AA823B798E8993691B0FAB93B /* FLAnimatedImage.debug.xcconfig */,
+				7FCCAF80C7B96B87DFCC8C98C452D741 /* FLAnimatedImage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLAnimatedImage";
+			sourceTree = "<group>";
+		};
+		50559D06F14DE4CD01A1A0C8DA07504B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9547205A70C36EE7CBAF3A01231C5922 /* CoreGraphics.framework */,
+				E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */,
+				0FAD0FE9175ACF308EC3F581CBCE4DB3 /* ImageIO.framework */,
+				B40640917C32395FE3CC15AD5A620ABB /* MobileCoreServices.framework */,
+				4FBC4B7FCE510DA29EF1CE33E2C7F75D /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F952231347B7CAA929A2E0917636322 /* Pods-Daily AnimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F24AB3C827570B1D1B6C60EBAA6D9C /* Pods-Daily AnimeTests.modulemap */,
+				B59C20CA81F8B10FCB4B169F677A07EF /* Pods-Daily AnimeTests-acknowledgements.markdown */,
+				B291DA32342D097A69F366187DDBD4B8 /* Pods-Daily AnimeTests-acknowledgements.plist */,
+				C99703EE50B2BC52E4FFC977869A937F /* Pods-Daily AnimeTests-dummy.m */,
+				F4F124759643C0370E93F04242712362 /* Pods-Daily AnimeTests-Info.plist */,
+				55C10017DD25F2D45D4995515E651950 /* Pods-Daily AnimeTests-umbrella.h */,
+				7F35BEF12D7A640D2696E4A09E5BC3C5 /* Pods-Daily AnimeTests.debug.xcconfig */,
+				9276BB44F9396DEFB9DA212A7BBCB982 /* Pods-Daily AnimeTests.release.xcconfig */,
+			);
+			name = "Pods-Daily AnimeTests";
+			path = "Target Support Files/Pods-Daily AnimeTests";
+			sourceTree = "<group>";
+		};
+		9F912AE750DA64A10C40FE479A12E6E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5F2D71B90788C908800A94534AA92 /* FLAnimatedImage.framework */,
+				24133618F5B3E74CEBA01F7457AA966C /* Pods_Daily_Anime.framework */,
+				1A596B5D46DBEC5B4699D680E43374C7 /* Pods_Daily_Anime_Daily_AnimeUITests.framework */,
+				CE1848440EC730C0D19CDEB58FEBEB18 /* Pods_Daily_AnimeTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51FC81BC219BFA79C7C565E756F86F0 /* Pods-Daily Anime-Daily AnimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E511B5E60D2824D872C1ECF2E487811 /* Pods-Daily Anime-Daily AnimeUITests.modulemap */,
+				8844FF96B5261D09D4E7B63A68CDA97C /* Pods-Daily Anime-Daily AnimeUITests-acknowledgements.markdown */,
+				780DAB60B4A9BEC1C4A427B6D6ECA8A9 /* Pods-Daily Anime-Daily AnimeUITests-acknowledgements.plist */,
+				5A2522D969D93325ACBCFAB59E99C9F3 /* Pods-Daily Anime-Daily AnimeUITests-dummy.m */,
+				28A86E1F5152873C399D09E7221B8C53 /* Pods-Daily Anime-Daily AnimeUITests-frameworks.sh */,
+				98208E8AFA7BE4F97DDC0A209FE208BA /* Pods-Daily Anime-Daily AnimeUITests-Info.plist */,
+				F29D4EE6FEB810BF4CF6026BB2E47165 /* Pods-Daily Anime-Daily AnimeUITests-umbrella.h */,
+				26F156432112EAFA498A149D043EED7C /* Pods-Daily Anime-Daily AnimeUITests.debug.xcconfig */,
+				7E1F9845456054E2057FA97E1502736F /* Pods-Daily Anime-Daily AnimeUITests.release.xcconfig */,
+			);
+			name = "Pods-Daily Anime-Daily AnimeUITests";
+			path = "Target Support Files/Pods-Daily Anime-Daily AnimeUITests";
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50559D06F14DE4CD01A1A0C8DA07504B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B4FD5E43674DD7913E312CF0261BE8 /* Pods-Daily Anime */ = {
+			isa = PBXGroup;
+			children = (
+				FB30F387D344F3EBB57D3B2F74E34133 /* Pods-Daily Anime.modulemap */,
+				895DF52BB8E92C9678BF543D51729FC8 /* Pods-Daily Anime-acknowledgements.markdown */,
+				C505033EF8EE09B8A3941CC053D19889 /* Pods-Daily Anime-acknowledgements.plist */,
+				B60A2DD45EEC6FD2833AD7BE1A876B1E /* Pods-Daily Anime-dummy.m */,
+				FF49378A677286E7B5CC921E88BEEC70 /* Pods-Daily Anime-frameworks.sh */,
+				3A8006F9934E36D46E06E15EBE16F124 /* Pods-Daily Anime-Info.plist */,
+				A1D28CD468D9C04F365B5F7939799EE1 /* Pods-Daily Anime-umbrella.h */,
+				6AE6119FE58B1A4FFB7DB8A31E0DAD1A /* Pods-Daily Anime.debug.xcconfig */,
+				43DC7B64A5973D8C91D71B5F39666841 /* Pods-Daily Anime.release.xcconfig */,
+			);
+			name = "Pods-Daily Anime";
+			path = "Target Support Files/Pods-Daily Anime";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				4B23E791B8839DB6941C7EB499DAE965 /* Pods */,
+				9F912AE750DA64A10C40FE479A12E6E9 /* Products */,
+				1B7297ED6EF8D493FB2DDC2347D10B41 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B120DD2CBDFCA5F536D0EACCECBB7B9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0344DF903354AA907019C4F01A2953FD /* Pods-Daily Anime-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA48D15F658359F98088FAC164EAF864 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4908503383288EED975CAF0DEE39249 /* Pods-Daily AnimeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEEFDD28881358293E26E0D5454AF39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A79E0DAC9677BA1663ED5039F087DE /* FLAnimatedImage-umbrella.h in Headers */,
+				56FD08990FA358410069F3FAAE721174 /* FLAnimatedImage.h in Headers */,
+				8F66B8BB0E6448219718D9FE6CB68470 /* FLAnimatedImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCE8153FDBFEF59DBE6DBD4A8EA8816 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEBE102D37A273DB785576A40CB5899 /* Pods-Daily Anime-Daily AnimeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25327DCD7CF658CE5717F77FD6E90B49 /* Pods-Daily Anime-Daily AnimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E5DE2F9803AC85F1B0F58D9D06DB0D /* Build configuration list for PBXNativeTarget "Pods-Daily Anime-Daily AnimeUITests" */;
+			buildPhases = (
+				EFCE8153FDBFEF59DBE6DBD4A8EA8816 /* Headers */,
+				33BFAAB7FB78B2BBE277EC5BEF34C2BB /* Sources */,
+				D604FCF619E5E641D81EDA8F44C15D05 /* Frameworks */,
+				700B9B57289F99184CB8989D3D334D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB44201B1DE94F2CC0AE0851AC4AD8C /* PBXTargetDependency */,
+			);
+			name = "Pods-Daily Anime-Daily AnimeUITests";
+			productName = "Pods-Daily Anime-Daily AnimeUITests";
+			productReference = 1A596B5D46DBEC5B4699D680E43374C7 /* Pods_Daily_Anime_Daily_AnimeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		314A3D67BC7372AFAF9472705D8F8A38 /* Pods-Daily AnimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53D8E7AC0206A545098B449FEAA9DC4 /* Build configuration list for PBXNativeTarget "Pods-Daily AnimeTests" */;
+			buildPhases = (
+				EA48D15F658359F98088FAC164EAF864 /* Headers */,
+				BBF102BAB14EE02C788DCB81875C1EF1 /* Sources */,
+				A7AEF7E860D8DADE2863019F694196E1 /* Frameworks */,
+				9098CE4C20267FAA1DF1E2E4FEFC4E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21C6F863956488691F78D730C5E21B81 /* PBXTargetDependency */,
+			);
+			name = "Pods-Daily AnimeTests";
+			productName = "Pods-Daily AnimeTests";
+			productReference = CE1848440EC730C0D19CDEB58FEBEB18 /* Pods_Daily_AnimeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14088B7296F043F753D5957271096369 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */;
+			buildPhases = (
+				EAEEFDD28881358293E26E0D5454AF39 /* Headers */,
+				76813F11C18C9173164ED85D64246350 /* Sources */,
+				939ECE9460DB5F12EA34129DA01E6E63 /* Frameworks */,
+				57A0D134A7678444328A0170986797A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAnimatedImage;
+			productName = FLAnimatedImage;
+			productReference = FAA5F2D71B90788C908800A94534AA92 /* FLAnimatedImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E477998068C968B391EFE2675BF096FB /* Pods-Daily Anime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4F04A6F0C9B87F2B1CEE04FCC15EB3 /* Build configuration list for PBXNativeTarget "Pods-Daily Anime" */;
+			buildPhases = (
+				B120DD2CBDFCA5F536D0EACCECBB7B9C /* Headers */,
+				81EE1C0C8F5ED303CC1D6A4C4C597ECF /* Sources */,
+				FA9209DDC9EC1981330AAEE7F1F4B59A /* Frameworks */,
+				F375668F54FA556D6877CEF5D3060D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D562BC836A1CBCBBFE29329EAD49705B /* PBXTargetDependency */,
+			);
+			name = "Pods-Daily Anime";
+			productName = "Pods-Daily Anime";
+			productReference = 24133618F5B3E74CEBA01F7457AA966C /* Pods_Daily_Anime.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9F912AE750DA64A10C40FE479A12E6E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */,
+				E477998068C968B391EFE2675BF096FB /* Pods-Daily Anime */,
+				25327DCD7CF658CE5717F77FD6E90B49 /* Pods-Daily Anime-Daily AnimeUITests */,
+				314A3D67BC7372AFAF9472705D8F8A38 /* Pods-Daily AnimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57A0D134A7678444328A0170986797A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B9B57289F99184CB8989D3D334D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9098CE4C20267FAA1DF1E2E4FEFC4E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F375668F54FA556D6877CEF5D3060D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33BFAAB7FB78B2BBE277EC5BEF34C2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22FD3C7F646F531FE1F5ECECF0CC32E /* Pods-Daily Anime-Daily AnimeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76813F11C18C9173164ED85D64246350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E0F0B55021FD2EA75B591CF86EB797 /* FLAnimatedImage-dummy.m in Sources */,
+				8C7D729C08C1E760B384B8D8AFFA9EF8 /* FLAnimatedImage.m in Sources */,
+				3E37E3F4AD5B372123C232FAB0AF797E /* FLAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EE1C0C8F5ED303CC1D6A4C4C597ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8458C118CA938A52C3B5AAF84DA445 /* Pods-Daily Anime-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF102BAB14EE02C788DCB81875C1EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAD4E8B34CE4D247F2BF5FEF8ACDF36 /* Pods-Daily AnimeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21C6F863956488691F78D730C5E21B81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Daily Anime";
+			target = E477998068C968B391EFE2675BF096FB /* Pods-Daily Anime */;
+			targetProxy = 7E06B9EACEDB07EDD26D8A0C219E4E2C /* PBXContainerItemProxy */;
+		};
+		7DB44201B1DE94F2CC0AE0851AC4AD8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = 4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */;
+			targetProxy = D7A2684A9E210272C947C523DD434236 /* PBXContainerItemProxy */;
+		};
+		D562BC836A1CBCBBFE29329EAD49705B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = 4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */;
+			targetProxy = 3C6D3247664468F548A50BEFDE8142D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1A9F0E7621449293FBCE80D4E794F676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34714E2AA823B798E8993691B0FAB93B /* FLAnimatedImage.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				PRODUCT_MODULE_NAME = FLAnimatedImage;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21967D572F3315331CF869EC0707DC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1F9845456054E2057FA97E1502736F /* Pods-Daily Anime-Daily AnimeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Daily Anime-Daily AnimeUITests/Pods-Daily Anime-Daily AnimeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Daily Anime-Daily AnimeUITests/Pods-Daily Anime-Daily AnimeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F2A9AC2637325A659E7341E6320B3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F35BEF12D7A640D2696E4A09E5BC3C5 /* Pods-Daily AnimeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Daily AnimeTests/Pods-Daily AnimeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Daily AnimeTests/Pods-Daily AnimeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43D68B5BD8E8BAE53BEFE721E60E2624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9276BB44F9396DEFB9DA212A7BBCB982 /* Pods-Daily AnimeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Daily AnimeTests/Pods-Daily AnimeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Daily AnimeTests/Pods-Daily AnimeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79B6F66B01DEA61ECA4D785AF4CF6B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE6119FE58B1A4FFB7DB8A31E0DAD1A /* Pods-Daily Anime.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Daily Anime/Pods-Daily Anime-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Daily Anime/Pods-Daily Anime.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A27FDBD76B06F825433726C36740D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F156432112EAFA498A149D043EED7C /* Pods-Daily Anime-Daily AnimeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Daily Anime-Daily AnimeUITests/Pods-Daily Anime-Daily AnimeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Daily Anime-Daily AnimeUITests/Pods-Daily Anime-Daily AnimeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9CD34C7951CC3C5C2A18B146F3146C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCCAF80C7B96B87DFCC8C98C452D741 /* FLAnimatedImage.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				PRODUCT_MODULE_NAME = FLAnimatedImage;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD7AFCFD1C74B6455C8E092B6F2B82F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DC7B64A5973D8C91D71B5F39666841 /* Pods-Daily Anime.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Daily Anime/Pods-Daily Anime-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Daily Anime/Pods-Daily Anime.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14088B7296F043F753D5957271096369 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9F0E7621449293FBCE80D4E794F676 /* Debug */,
+				B9CD34C7951CC3C5C2A18B146F3146C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E5DE2F9803AC85F1B0F58D9D06DB0D /* Build configuration list for PBXNativeTarget "Pods-Daily Anime-Daily AnimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A27FDBD76B06F825433726C36740D90 /* Debug */,
+				21967D572F3315331CF869EC0707DC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4F04A6F0C9B87F2B1CEE04FCC15EB3 /* Build configuration list for PBXNativeTarget "Pods-Daily Anime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B6F66B01DEA61ECA4D785AF4CF6B51 /* Debug */,
+				DD7AFCFD1C74B6455C8E092B6F2B82F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53D8E7AC0206A545098B449FEAA9DC4 /* Build configuration list for PBXNativeTarget "Pods-Daily AnimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2A9AC2637325A659E7341E6320B3D7 /* Debug */,
+				43D68B5BD8E8BAE53BEFE721E60E2624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
